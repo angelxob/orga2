@@ -245,14 +245,7 @@ int main()
                                 }
                             }
                         }
-                        if(ps==2)//politica de sustitucion RR
-                        {
-                            r = rand() % num_l_c; //generamos un numero random entre las lineas que tiene la cache
-                            Acache[r][0]=line1;
-                            //colocamos el valor
-                            for(j=Tag_size; j<Tag_size+B; j++)
-                                Acache[r][j]=RAM[line1][j-Tag_size];
-                        }
+                        
                     }
 				}
 		}
